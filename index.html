@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Título de Prueba</h1>
-    <p>Probando mi página de prueba</p>
+    <header>
+        <div class="encabezado-c">
+            <div class="encabezado-f">
+                <h1 class="TE1">Secret Code</h1>
+            </div>
+        </div>
+    </header>
+    <div class="presentacion">
+        <p>Mensaje Secreto</p>
+        <input type="text" class="Mensaje" placeholder="Escribe o pega tu mensaje secreto aquí">
+    </div>
+    <div class="clave">
+        <p>Clave Secreta</p>
+        <input type="number" placeholder="Ingresa tu clave secreta aquí">
+    </div>
+    <div class="botones">
+        <button class="boton" id="cifrar">Cifrar</button>
+        <button class="boton" id="descifrar">Descifrar</button>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/cifrado.js"></script>
 </body>
 </html>
