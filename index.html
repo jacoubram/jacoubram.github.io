@@ -8,25 +8,23 @@
 </head>
 <body>
     <header>
-        <div class="encabezado-c">
-            <div class="encabezado-f">
-                <h1 class="TE1">Secret Code</h1>
-            </div>
-        </div>
+        <h1 class="TE1">Secret Code</h1>
     </header>
     <div class="presentacion">
         <p>Mensaje Secreto</p>
-        <input type="text" class="Mensaje" placeholder="Escribe o pega tu mensaje secreto aquí">
+        <textarea name="mensaje" id="mensaje" maxlength="500" placeholder="Escribe tu mensaje secreto"></textarea>
     </div>
     <div class="clave">
         <p>Clave Secreta</p>
-        <input type="number" placeholder="Ingresa tu clave secreta aquí">
+        <input type="number" id="desplazamiento" placeholder="Ingresa tu clave secreta aquí">
     </div>
-    <div class="botones">
-        <button class="boton" id="cifrar">Cifrar</button>
-        <button class="boton" id="descifrar">Descifrar</button>
-    </div>
-    <script src="js/script.js"></script>
-    <script src="js/cifrado.js"></script>
+        <button class="boton1" id="cifrar">Cifrar</button>
+        <button class="boton2" id="descifrar">Descifrar</button>
+        <div id="resultado">
+
+        </div>
+    <script src="js/script.js" type="module"></script>
+    <script src="js/cifrado.js" type="module"></script>
+    <script src="js/descifrado.js" type="module"></script>
 </body>
 </html>

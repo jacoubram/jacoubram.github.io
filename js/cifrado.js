@@ -1,4 +1,4 @@
-function cifrado(texto, desplazamiento){
+function cifrado(texto, desplazamiento,){
     const abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     let resultado = '';
 
@@ -20,3 +20,8 @@ let textoOriginal = "Hola";
 let desplazamiento = 3;
 let textoCifrado = cifrado(textoOriginal,desplazamiento);
 console.log(textoCifrado);
+
+
+
+
+
