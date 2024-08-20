@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Secret Code</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1 class="TE1">Secret Code</h1>
     </header>
+<div class="general">
+    <p class="mp">Mensaje Secreto</p>
     <div class="presentacion">
-        <p>Mensaje Secreto</p>
         <textarea name="mensaje" id="mensaje" maxlength="500" placeholder="Escribe tu mensaje secreto"></textarea>
     </div>
     <div class="clave">
         <p>Clave Secreta</p>
         <input type="number" id="desplazamiento" placeholder="Ingresa tu clave secreta aquí">
     </div>
+    <div class="botones">
         <button class="boton1" id="cifrar">Cifrar</button>
         <button class="boton2" id="descifrar">Descifrar</button>
-        <div id="resultado">
-
-        </div>
+    </div>
+</div>
+        <div id="resultado"></div>
     <script src="js/script.js" type="module"></script>
     <script src="js/cifrado.js" type="module"></script>
-    <script src="js/descifrado.js" type="module"></script>
 </body>
 </html>

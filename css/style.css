@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    min-height: 80px;
+    padding: 0.5rem 1rem;
     background: linear-gradient(
         90deg, 
         rgb(179, 109, 121) 0%,
@@ -11,7 +11,47 @@ header {
     );
 }
 
-.presentacion {
-    margin: 40;
-    border: 50px;
+.mp { 
+   text-align: center;
 }
+
+.presentacion {
+    background-color: rgb(233, 167, 167);
+    width: 708px;
+    height: 298px;
+    margin-left: 45%;
+}
+
+textarea{
+    background-color: transparent;
+
+}
+
+.clave {
+    background-color: transparent;
+    width: 708px;
+    height: 140px;
+    margin-left: 45%;
+
+}
+
+.botones {
+   background-color: transparent;
+   width: 30%;
+   height: 50px;
+   margin-left: auto;
+   display: block;
+   
+   float: left;
+}
+
+.boton1 {
+    width: 100%;
+}
+
+.boton2 {
+    width: 100%;
+}
+
+
+
