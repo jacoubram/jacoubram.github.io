@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret Code</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <h1 class="TE1">Secret Code</h1>
+        <h1 >Secret Code</h1>
     </header>
 <div class="general">
     <p class="mp">Mensaje Secreto</p>
@@ -16,15 +17,18 @@
         <textarea name="mensaje" id="mensaje" maxlength="500" placeholder="Escribe tu mensaje secreto"></textarea>
     </div>
     <div class="clave">
-        <p>Clave Secreta</p>
-        <input type="number" id="desplazamiento" placeholder="Ingresa tu clave secreta aquí">
+        <p class="lp">Clave Secreta</p>
+        <input type="number" id="desplazamiento" class="cl"  placeholder="Ingresa tu clave secreta aquí">
     </div>
     <div class="botones">
-        <button class="boton1" id="cifrar">Cifrar</button>
-        <button class="boton2" id="descifrar">Descifrar</button>
+        <button class="boton1" id="cifrar"><i class="fa-solid fa-user-lock"></i>Cifrar</button>
+        <button class="boton2" id="descifrar"><i class="fa-solid fa-unlock"></i>Descifrar</button>
     </div>
 </div>
         <div id="resultado"></div>
+    <video src="/video/Pink Venom fondo.mp4" autoplay muted loop class="fondo"></video>
+    <div class="capa"></div>
+
     <script src="js/script.js" type="module"></script>
     <script src="js/cifrado.js" type="module"></script>
 </body>
