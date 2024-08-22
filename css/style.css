@@ -2,12 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
     align-items: center;
     justify-content: center;
-
 }
 
 h1{
     color: white;
-    font-size: 27px;
+    font-size: 29px;
 }
 video {
     position: absolute;
@@ -24,18 +23,18 @@ video {
     left: 0;
     width: 100%;
     height: 100%;
-    background: black;
-    opacity: 0.3;
+    background: rgb(14, 13, 13);
+    opacity: 0.4;
 }
 
 header{
-    background-color: black;
-    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.952);
+    padding: 5px;
     height: 60px;
     border-radius: 5px ;
     position: relative;
     z-index: 2;
-    
+ 
 }
 
 .general {
@@ -58,10 +57,11 @@ textarea{
     border-radius: 5px;
     font-size: 22px;
     background: rgba(255, 255, 255, 0);
+    color: white;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 2px solid rgba(0, 0, 0, 0.637);
+    border: 2px solid rgba(192, 183, 183, 0.733);
 }
 
 textarea:hover{
@@ -74,10 +74,17 @@ textarea:hover{
 
 .mp {
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .lp {
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin-bottom: 4px;
 }
 
 .boton1 {
@@ -123,14 +130,49 @@ textarea:hover{
 .cl {
     background-color: black;
     text-align: center;
+    color: white;
     font-size: 19px;
     width: 30%;
     padding: 15px 40px;
     border-radius: 10px;
-    margin: 7px;
+    margin-bottom: 7px;
 }
 
 i {
     padding: 3px;
+}
 
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(150, 12, 108, 0.466);
+
+}
+
+.modalContenido{
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 4px solid black;
+    width: 80%;
+    text-align: center;
+
+}
+
+.close{
+    color:gray;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover{ 
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
 }
